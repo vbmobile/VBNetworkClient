@@ -17,8 +17,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "VBNetworkClient",
-            url: "https://vbmobileidstorage.blob.core.windows.net/ios/MobileIdSDKiOS/VBNetworkClient/VBNetworkClient-5.1.0.zip",
-            checksum: "954be23e24017c38e9da03886806de8659c74314e13b54a769e58dc49c38c791"
+            url: "https://vbmobileidstorage.blob.core.windows.net/ios/MobileIdSDKiOS/VBNetworkClient/VBNetworkClient-5.1.1.zip",
+            checksum: "d732d5caf183f4f51cf7144790eeac4d1301461c4777c5b8dd7192bdc9828796"
         )
     ],
     swiftLanguageVersions: [.v5]
