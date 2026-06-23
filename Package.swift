@@ -1,24 +1,21 @@
 // swift-tools-version: 5.10
-// The swift-tools-version declares the minimum version of Swift required to build this package.
-
 import PackageDescription
 
 let package = Package(
-    name: "VBNetworkClient",
+    name: "AMANetworkClient",
     platforms: [
-        .iOS(.v10)
+        .iOS(.v15)
     ],
     products: [
-        // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
-            name: "VBNetworkClient",
-            targets: ["VBNetworkClient"]),
+            name: "AMANetworkClient",
+            targets: ["AMANetworkClient"]),
     ],
     targets: [
         .binaryTarget(
-            name: "VBNetworkClient",
-            url: "https://vbmobileidstorage.blob.core.windows.net/ios/MobileIdSDKiOS/VBNetworkClient/VBNetworkClient-5.1.1.zip",
-            checksum: "d732d5caf183f4f51cf7144790eeac4d1301461c4777c5b8dd7192bdc9828796"
+            name: "AMANetworkClient",
+            url: "https://vbmobileidstorage.blob.core.windows.net/ios/AMANetworkClient/AMANetworkClient-6.0.0.zip",
+            checksum: "e3fe61d9429a7b046e7f4ecfab61e6222ed68cb6e7ab2bdf371e79737822cfa7"
         )
     ],
     swiftLanguageVersions: [.v5]
